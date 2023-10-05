@@ -18,6 +18,16 @@ body{
     background-color: #e2e1e6;
     color: gray;
 }
+.notifica{
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+.notifica2{
+    position: absolute;
+    top: 18px;
+    right: 59px;
+}
 .bi.bi-camera-video{
     background-color: #FFEEDA;
     color: orange;

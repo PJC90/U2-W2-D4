@@ -2,12 +2,12 @@
 @import "../scss/functions";
 @import "../scss/variables";
 
-// $new-primary: pink;
-// $new-theme-colors:(
-//     "primary": $new-primary,
-// );
+$new-primary: #7550FE;
+$new-theme-colors:(
+    "primary": $new-primary,
+);
 
-// $theme-colors:map-merge($theme-colors, $new-theme-colors);
+$theme-colors:map-merge($theme-colors, $new-theme-colors);
 
 // $new-spacers: (
 //   5: $spacer * 10,

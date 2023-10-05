@@ -22,39 +22,42 @@
               height="28"
             />
           </a>
-          <div
-            class="d-flex justify-content-center justify-content-between align-items-center d-md-none"
-            style="width: 90px"
-          >
-            <i
-              class="bi bi-bell p-2 bg-secondary border rounded-circle"
-              style="
-                width: 40px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 40px;
-              "
-            ></i>
-            <img
-              src="screenassets/assets/assets/avatar-1.jpg"
-              alt="Bootstrap"
-              width="45"
-              height="45"
-              class="border rounded-circle"
-            />
+          <div class="d-flex">
+            <!-- Icone laterali sulla navbar che si vedono solo su schermi piccoli -->
+            <div
+              class="d-flex justify-content-between align-items-center d-md-none"
+              style="width: 90px"
+            >
+              <i
+                class="bi bi-bell p-2 bg-secondary border rounded-circle"
+                style="
+                  width: 40px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  height: 40px;
+                "
+              ></i>
+              <img
+                src="screenassets/assets/assets/avatar-1.jpg"
+                alt="Bootstrap"
+                width="45"
+                height="45"
+                class="border rounded-circle"
+              />
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
@@ -134,11 +137,21 @@
                 </ul>
               </li>
             </ul>
+            <!-- Icone laterali sulla navbar che si vedono solo su schermi grandi -->
             <div
               class="d-flex justify-content-center justify-content-between align-items-center"
               style="width: 90px"
             >
-              <i class="bi bi-bell p-2 bg-secondary border rounded-circle"></i>
+              <i
+                class="bi bi-bell p-2 bg-secondary border rounded-circle"
+                style="
+                  width: 40px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  height: 40px;
+                "
+              ></i>
               <img
                 src="screenassets/assets/assets/avatar-1.jpg"
                 alt="Bootstrap"
@@ -150,7 +163,7 @@
           </div>
         </div>
       </nav>
-
+      <!-- HERO -->
       <div class="container-fluid bg-primary">
         <div class="container">
           <div class="row d-flex align-items-center">
@@ -173,7 +186,7 @@
           </div>
         </div>
       </div>
-
+      <!-- HERO BOTTOM -->
       <div class="container-fluid bg-info p-4">
         <div class="container">
           <div class="row row-cols-1 row-cols-md-3">
@@ -182,7 +195,8 @@
             >
               <div class="d-flex">
                 <i
-                  class="bi bi-camera-video p-3 bg-secondary rounded-circle"
+                  class="bi bi-camera-video bg-secondary rounded-circle d-flex justify-content-center align-items-center"
+                  style="width: 50px; height: 50px; font-size: 1.2em"
                 ></i>
               </div>
               <div class="d-flex flex-column justify-content-center ms-3">
@@ -195,7 +209,8 @@
             >
               <div class="d-flex">
                 <i
-                  class="bi bi-camera-video p-3 bg-secondary rounded-circle"
+                  class="bi bi-camera-video bg-secondary rounded-circle d-flex justify-content-center align-items-center"
+                  style="width: 50px; height: 50px; font-size: 1.2em"
                 ></i>
               </div>
               <div class="d-flex flex-column justify-content-center ms-3">
@@ -208,7 +223,8 @@
             >
               <div class="d-flex">
                 <i
-                  class="bi bi-camera-video p-3 bg-secondary rounded-circle"
+                  class="bi bi-camera-video bg-secondary rounded-circle d-flex justify-content-center align-items-center"
+                  style="width: 50px; height: 50px; font-size: 1.2em"
                 ></i>
               </div>
               <div class="d-flex flex-column justify-content-center ms-3">
